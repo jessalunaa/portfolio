@@ -1,9 +1,14 @@
+/* @font-face {
+  font-family: 'Sofia Pro';
+  src: url(./fonts/sofia/Sofia\ Pro\ Regular\ Az.otf);
+} */
 * {
   padding: 0;
   margin: 0;
 }
 body{
     box-sizing: border-box;
+    font-family: 'Sofia Pro' !important;
 }
 
 #welcomecont{
@@ -30,7 +35,6 @@ body{
     .nav-link {
     display: inline-block;
     color:#342809;
-    font-family: 'Croissant One';
   }
   
   .nav-link-link:link, .nav-link-link:visited {
@@ -68,14 +72,12 @@ body{
   }
 
   #name {   
-    font-family: 'Croissant One';
     color: #fff;
     font-size: 56px;
     text-decoration: none;
   }
 
   #work {
-    font-family: 'Croissant One';
     color: #fff;
     font-size: 26px;
     text-decoration: none;
@@ -91,8 +93,12 @@ body{
      position: relative;
      height: 60px;
    }
-   .a {
+   a {
      text-decoration: none !important;
+   }
+   p {
+     color: #333 ;
+     font-family: 'Sofia Pro Light';
    }
 
    .container {
