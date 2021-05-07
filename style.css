@@ -33,6 +33,10 @@ body{
 
 }
 
+.material-icons{
+  padding: 5%;
+}
+
 #nav-bar{
   height: 100%;
   width: 250px;
@@ -61,12 +65,14 @@ body{
      color: white;
      font-size: 20px;
   }
+
   
   .nav-link-link:link, .nav-link-link:visited {
     color: black;
     padding: 0px 15px;
     text-decoration: none;
-    display: block;
+    display: flex;
+    align-items: center;
   }
   
   .nav-link-link:hover, .nav-link-link:active {
