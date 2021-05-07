@@ -105,6 +105,7 @@ body{
    p {
      color: #333 ;
      font-family: 'Sofia Pro Light';
+     font-size: 20px;
    }
 
    .container {
@@ -147,4 +148,8 @@ body{
    }
    section h2 {
      margin-bottom: 20px;
+   }
+
+   .content{
+     padding-top: 5%;
    }
