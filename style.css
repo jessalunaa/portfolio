@@ -34,6 +34,8 @@ body{
   }
   #nav-bar h1 {
     color: #333;
+    font-size: 40px !important;
+    margin: 0;
   }
     
     .nav-link {
@@ -43,7 +45,7 @@ body{
   
   .nav-link-link:link, .nav-link-link:visited {
     color: #342809;
-    padding: 14px 25px;
+    padding: 0px 15px;
     text-decoration: none;
     display: inline-block;
   }
