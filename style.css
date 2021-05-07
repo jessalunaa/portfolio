@@ -26,14 +26,14 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
-    box-shadow: 1px -1px 9px 0px #342809;
-    font-size: 20px;
+    box-shadow: 1px -1px 9px 0px black;
+    font-size: 26px;
     background: #fafafa;
     z-index: 9;
     padding: 0 30px;
   }
   #nav-bar h1 {
-    color: #333;
+    color: black;
     font-size: 40px !important;
     margin: 0;
   }
@@ -44,15 +44,15 @@ body{
   }
   
   .nav-link-link:link, .nav-link-link:visited {
-    color: #342809;
+    color: black;
     padding: 0px 15px;
     text-decoration: none;
     display: inline-block;
   }
   
   .nav-link-link:hover, .nav-link-link:active {
-    background-color:#342809;
-    color:#FED777;
+    background-color: black;
+    color: white;
   }
   
   .welcome {
@@ -151,5 +151,5 @@ body{
    }
 
    .content{
-     padding-top: 5%;
+     padding-top: 10%;
    }
