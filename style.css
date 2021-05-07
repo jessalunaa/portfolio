@@ -9,6 +9,8 @@
 body{
     box-sizing: border-box;
     font-family: 'Sofia Pro' !important;
+    background: url(./images/front.jpg);
+    color: #fff;
 }
 
 #welcomecont{
@@ -103,7 +105,7 @@ body{
      text-decoration: none !important;
    }
    p {
-     color: #333 ;
+     color: #888 ;
      font-family: 'Sofia Pro Light';
      font-size: 20px;
    }
@@ -152,4 +154,8 @@ body{
 
    .content{
      padding-top: 10%;
+   }
+
+   .contact {
+      padding: 5%;
    }
