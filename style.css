@@ -44,7 +44,6 @@ body{
     
     .nav-link {
      color: white;
-     padding: 10px;
      text-decoration: none;
      color: white;
      font-size: 20px;
@@ -66,7 +65,7 @@ body{
   
   .nav-link-link:hover, .nav-link-link:active {
     background-color:#101010;
-    display: inline-block;
+    display: flex;
     color: white;
   }
   
@@ -193,11 +192,81 @@ body{
      padding-top: 10%;
    }
 
-   .cert{
-     padding-top: 5%;
-   }
-
    .contact {
       padding: 5%;
    }
 
+   @media screen and (max-width: 350px) {
+    .nav-link {
+      color: white;
+      text-decoration: none;
+      color: white;
+      font-size: 8px;
+      justify-content: flex-end;
+      float: right;
+      display: flex;
+      flex-direction: column;
+   }
+
+   #name {   
+    color: #fff;
+    font-family: 'Sofia Pro' !important;
+    font-size: 46px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  #work {
+    color: #fff;
+    font-family: 'Sofia Pro' !important;
+    font-size: 28px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .content{
+    padding: 15%;
+  }
+
+  .card .card-content {
+    padding: 8px;
+    border-radius: 0 0 2px 2px;
+}
+    }
+
+    @media screen and (max-width: 750px) {
+      .nav-link {
+        color: white;
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        justify-content: flex-end;
+        float: right;
+        display: flex;
+        flex-direction: column;
+     }
+  
+     #name {   
+      color: #fff;
+      font-family: 'Sofia Pro' !important;
+      font-size: 56px;
+      text-decoration: none;
+      text-align: center;
+    }
+  
+    #work {
+      color: #fff;
+      font-family: 'Sofia Pro' !important;
+      font-size: 38px;
+      text-decoration: none;
+      text-align: center;
+    }
+    section {
+      margin-bottom: 80px;
+      padding: 5%;
+    }
+    .card .card-content {
+      padding: 16px;
+      border-radius: 0 0 2px 2px;
+  }
+      }
