@@ -88,7 +88,7 @@ body{
       background-color: black;
     }
     50%{
-      background-color: gray;
+      background-color: blue;
     }
     100% {
       background-color: black;
@@ -189,10 +189,37 @@ body{
    section {
      margin-bottom: 80px;
    }
-   section h2 {
-     margin-bottom: 20px;
-   }
 
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+  
+  
+  #typeline {
+
+    font-family: 'Sofia Pro Light';
+    color: darkblue;
+    text-align:center;
+  
+  }
+  
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+  
+  
    .content{
      padding-top: 10%;
    }
