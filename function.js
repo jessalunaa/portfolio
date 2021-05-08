@@ -37,7 +37,7 @@
                   var sentences = [
                     " Luna.",
                     " a Software Engineer.",
-                    " a Developer.",
+                    " a Web Developer.",
                     " a Web Designer. "
                   ]
                     

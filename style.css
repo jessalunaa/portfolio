@@ -21,11 +21,11 @@ body{
 }
 
 .displayphoto{
-  width: 150px;
+    width: 150px;
     height: 150px;
-    margin-top: 25%;
-    margin-right: 20%;
-    margin-left: 20%;
+    margin-top: 30%;
+    margin-right: 30%;
+    margin-left: 25%;
     border-radius: 50%;
     border-style: solid;
     border-color: #dddddd;
@@ -38,7 +38,7 @@ body{
 
 #nav-bar{
   height: 100%;
-  width: 250px;
+  width: 300px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -80,15 +80,16 @@ body{
   }
   
   .welcome {
-    animation: rainbow 1s infinite;
+    animation: bluescreen 1s infinite;
   }
 
-  @keyframes rainbow {
+  @keyframes bluescreen {
     0% {
       background-color: black;
     }
     50%{
       background-color: blue;
+      color: black;
     }
     100% {
       background-color: black;
@@ -120,7 +121,7 @@ body{
     font-family: 'Sofia Pro' !important;
     font-size: 72px;
     text-decoration: none;
-    margin-left: 250px;
+    margin-left: 300px;
   }
 
   #work {
@@ -128,7 +129,7 @@ body{
     font-family: 'Sofia Pro' !important;
     font-size: 46px;
     text-decoration: none;
-    margin-left: 250px;
+    margin-left: 300px;
   }
 
 
@@ -145,9 +146,9 @@ body{
      text-decoration: none !important;
    }
    p {
-     color: #888 ;
+     color: #000 ;
      font-family: 'Sofia Pro Light';
-     font-size: 20px;
+     font-size: 24px;
    }
 
    .container {
@@ -188,37 +189,17 @@ body{
 
    section {
      margin-bottom: 80px;
+     margin-left: 5%;
    }
-
-  
-  @keyframes typing {
-    from {
-      width: 0
-    }
-  }
-      
-  @keyframes blink {
-    50% {
-      border-color: transparent
-    }
-  }
   
   
   #typeline {
 
     font-family: 'Sofia Pro Light';
-    color: darkblue;
     text-align:center;
+    color: darkblue;
   
   }
-  
-  @keyframes caret {
-    50% {
-      border-color: transparent;
-    }
-  }
-
-  
   
    .content{
      padding-top: 10%;
