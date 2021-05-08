@@ -85,13 +85,6 @@ body{
       background-color: black;
     }
   }
-  
-
-  #welcomeoverlay {
-    position: relative;
-    display: flex;
-    color:#FED777;
-  }
 
   #welcomebg {
     
@@ -130,13 +123,25 @@ body{
      position: relative;
      height: 60px;
    }
+
+ .contact{
+    position: relative;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
    a {
      text-decoration: none !important;
    }
+
    p {
      color: #000 ;
      font-family: 'Sofia Pro Light';
      font-size: 24px;
+    
    }
 
    .container {
@@ -190,10 +195,6 @@ body{
   
    .content{
      padding-top: 10%;
-   }
-
-   .contact {
-      padding: 5%;
    }
 
    @media screen and (max-width: 350px) {
@@ -261,6 +262,7 @@ body{
       text-decoration: none;
       text-align: center;
     }
+
     section {
       margin-bottom: 80px;
       padding: 5%;
