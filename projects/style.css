@@ -1,0 +1,313 @@
+body{
+    background-color: #f5f5f5;
+} 
+
+#titleoverlay {
+    position: relative;
+    display: flex;
+  }
+   
+#titleimg{
+  display: flex;
+  width: 100%;
+  }
+
+  @media screen and (max-width: 300px) {
+    #titleoverlay, #titleimg{
+      display: flex;
+      height: 100%;
+      width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      #titleoverlay, #titleimg{
+        display: flex;
+        height: 100%;
+        width: 100% ;
+        }
+      }
+
+      @media screen and (max-width: 1300px) {
+        #titleoverlay, #titleimg{
+          display: flex;
+          height: 100vh;
+          width: 100%;
+          }
+        }
+  
+
+  .cont{
+    display: flex;
+    justify-content: center;
+  }
+
+#titlebg {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:black;
+  }
+
+  #content1{
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+  #titleoverlay:hover #titlebg {
+    display: flex;
+    opacity: 0.75;
+  }
+  
+  #titleoverlay:hover #titletext {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-shadow: 1.5px 1.5px black;
+    color: white;
+    font-size: 34px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  @media screen and (max-width: 300px) {
+    #titleoverlay:hover, #titletext{
+      font-size: 24px;
+      }
+  }
+
+  @media screen and (max-width: 600px) {
+    #titleoverlay:hover, #titletext{
+      font-size: 24px;
+      display: flex;
+      }
+  }
+ 
+  #titletext2{
+    font-size: 30px;
+    text-shadow: 1px 1px black;
+  }
+
+  @media screen and (max-width: 300px) {
+    #titletext2{
+      font-size: 35px;
+      text-shadow: 0.5px 0.5px black;
+    }
+  }
+
+    @media screen and (max-width: 600px) {
+      #titletext1{
+        font-size: 30px;
+        text-shadow: 0.5px 0.5px black;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      #titletext2{
+        font-size: 24px;
+        text-shadow: 0.5px 0.5px black;
+      }
+    }
+  
+      @media screen and (max-width: 300px) {
+        #titletext1{
+          font-size: 40px;
+          text-shadow: 0.5px 0.5px black;
+        }
+      }
+
+  #contentheader1{
+    padding: 5rem 2rem;
+      text-align: center;
+      font-size: 42px;
+  }
+
+  @media screen and (max-width: 300px) {
+    #contentheader1{
+        text-align: center;
+        font-size: 21px;
+    }
+  }
+
+   #profilemt {
+            display: flex;
+            background-color: #f5f5f5;
+            text-align: center;
+            width: auto;
+            height: auto;
+            }
+
+        #profilemt1, #profilemt2 {
+            color: black;
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            font-size: 24px;
+            text-align: justify;
+        }
+
+        @media screen and (max-width: 300px) {
+          #profilemt {
+            text-align: center;
+            width: 100%;
+            font-size: 12px;
+            text-align: justify;
+            display: flex;
+            flex-direction: column;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+          #profilemt {
+            text-align: center;
+            width: 100%;
+            font-size: 12px;
+            text-align: justify;
+            display: flex;
+            flex-direction: column;
+            }
+        }
+
+        
+
+        @media screen and (max-width: 1300px) {
+          #profilemt {
+            text-align: center;
+            width: 100%;
+            font-size: 12px;
+            text-align: justify;
+            display: flex;
+            flex-direction: column;
+            }
+        }
+        
+        .profile1cont{
+           display: flex;
+           flex-direction: column;
+           align-content: center;
+           width: fit-content;
+        }
+
+        @media screen and (max-width: 300px) {
+          #earlyageimg{
+            width: 50%;
+            display: flex;  
+            flex-direction: column;        
+            text-align: center;
+        }
+        }
+
+        #earlyageimg{
+          display: flex;          
+          text-align: center;
+      }
+
+      @media screen and (max-width: 300px) {
+        #earlyageimg, #charityimg{
+          width: 100%;
+          display: flex;          
+          text-align: center;
+      }
+      }
+
+      @media screen and (max-width: 600px) {
+        #earlyageimg, #charityimg{
+          display: flex;          
+          text-align: center;
+      }
+      }
+
+        #charityimg{
+          display: flex;         
+          text-align: center;
+          width: 100%;
+        }
+
+        #contentheader2{
+            margin-top: 10%;
+              text-align: center;
+              font-size: 42px;
+          }
+
+         #missionary {
+            color: black;
+            width: auto;
+            height: auto;
+            text-align: center;
+            font-size: 24px;
+            text-align: justify;
+            padding: 3%;
+            }
+
+            div.gallery{
+              width: 100%;
+              display: flex;   
+              justify-content: center;
+            }
+
+            div.charimg {
+                margin: 20px;
+                display: flex;
+                width: 300px; 
+                transition: width 3s, height 6s; 
+                justify-content: space-between;
+              }
+
+              div.gallery img {
+                width: 100%;
+                height: 230px;
+              }
+
+              div.charimg:hover {
+                width: 600px;
+              }
+
+              #contentsrc{
+                margin-top: 5%;
+                font-size: 18px;
+                text-align: center;
+                text-decoration: none;
+                font-family: monospace;
+              }
+
+              @media screen and (max-width: 300px){
+              div.gallery {
+                  width: 100%;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;   
+              }         
+            }
+
+            @media screen and (max-width: 600px){
+              div.gallery {
+                  width: 100%;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;   
+              }         
+            }
+
+            @media screen and (max-width: 1300px){
+              div.gallery {
+                  width: 100%;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;   
+              }         
+            }
