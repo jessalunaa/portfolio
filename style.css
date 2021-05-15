@@ -68,7 +68,7 @@ body{
 }
   
   .welcome {
-    animation: bluescreen 1s infinite;
+    animation: bluescreen 2s infinite;
   }
 
   @keyframes bluescreen {
