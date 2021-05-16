@@ -47,7 +47,6 @@ body{
      justify-content: flex-end;
      display: flex;
      padding: 16px;
-     display: inline-block;
      float: right;
 }
 
@@ -203,7 +202,10 @@ body{
       width: 100%;
       top: 0;
       left: 0;
-      display: inline-block;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
     }
     
     .topnav h1{
@@ -216,38 +218,35 @@ body{
     }
 
    .dropdownhome {    
-     text-decoration: none;
-     color: black;
-     font-size: 20px;
-     padding: 16px;
-     display: flex; 
+      width: 100%;
+      display: inline-block;
+      padding: 16px;
     }
 
     
     .dropdown{
       position: relative;
-      display: inline-block;
-      float: right;
+      display: block;
     }
 
     .topnavlink {
       display: none;
-      position: relative;
-      background-color: black ;
-      width: 100px;
     }
 
     .topnavlink a {
          text-decoration: none;
-         color: white;
-         font-size: 20px;
-         padding: 16px;
+         color: #333;
+         font-size: 14px;
+         display: block;
+         float: none;
+         padding: 10px;
     }
     
     .dropdown:hover .topnavlink {
       background-color: #ddd;
       color: black;
-      display: block;
+      display: flex;
+      flex-direction: column;
     }
     
   
