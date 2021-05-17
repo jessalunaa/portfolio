@@ -195,6 +195,7 @@ body{
 
    @media screen and (max-width: 300px) {
     
+    
     .topnav {
       overflow: hidden;
       background-color: #333;
@@ -220,7 +221,7 @@ body{
    .dropdownhome {    
       width: 100%;
       display: inline-block;
-      padding: 16px;
+      padding: 16px;                                     
     }
 
     
@@ -242,11 +243,16 @@ body{
          padding: 10px;
     }
     
-    .dropdown:hover .topnavlink {
+    .dropdown:hover .topnavlink, .dropdown:active .topnavlink {
       background-color: #ddd;
       color: black;
       display: flex;
       flex-direction: column;
+      position: fixed;
+    }
+
+    .dropdown:visited .topnavlink {
+      display: none;
     }
     
   
@@ -294,17 +300,16 @@ body{
   }
 
   .content h2{
-    font-size: 18px;
+    font-size: 26px;
   }
 
-  section{
-    margin: 0;
-    width: 100%;
-    padding: 5%;
+  section {
+    margin-bottom: 80px;
   }
+ 
 
   p{
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .cert h3{
