@@ -11,31 +11,19 @@ body{
     font-family: 'Sofia Pro' !important;
 }
 
-#welcomecont{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100vh;
-  margin-bottom: 100px;
-
-}
-
 .topnav {
   overflow: hidden;
   background-color: #f5f5f5;
-  display: flex;
   position: fixed;
   z-index: 10;
   width: 100%;
-  top: 0;
-  left: 0;
   display: inline-block;
+  top: 35vh;
 }
 
 .logo {
   display: flex;
   align-items: center;
-  ma
 }
 
 .charlogo{
@@ -74,34 +62,28 @@ body{
  .dropdownhome {
   display: none;
 }
-  
-  .welcome {
-    animation: bluescreen 2s infinite;
-  }
 
-  @keyframes bluescreen {
-    0% {
-      background-color: black;
-    }
-    50%{
-      background-color: blue;
-    }
-    100% {
-      background-color: black;
-    }
-  }
+#welcomecont{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 35vh;
+  margin-bottom: 100px;
+  position: fixed;
+  z-index: 10;
+}
 
   #welcomebg {
-    
+    background-image: url(./images/front.jpg);
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 35vh;
     align-items: center;
     justify-content: center;
     align-content: center;
-    flex-direction: column;
-    transition: .5s ease;
-    
+    flex-direction: column;   
+    background-position: center;
+    background-position: right;
   }
 
   #name {   
@@ -118,14 +100,9 @@ body{
     text-decoration: none;
   }
 
-
-  
-
-
-
   /*=====================================*/
    .header {
-     position: relative;
+     position: fixed;
      height: 60px;
    }
 
@@ -138,6 +115,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
   }
+
    a {
      text-decoration: none !important;
    }
@@ -153,6 +131,10 @@ body{
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 50vh;
    }
 
    .container.is-fluid {
@@ -191,7 +173,6 @@ body{
   
    .row{
      position: relative;
-     pos
    }
   
   #typeline {
@@ -203,9 +184,25 @@ body{
   }
   
    .content{
-     padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+  
    }
 
+   .about{
+     display: flex;
+     flex-direction: row;
+   }
+
+   .cert h3{
+    margin-left: 30%;
+   }
+
+   .cert .row{
+     width: 600px;
+     height: 600px;
+     margin-left: 30%;
+   }
 
 @media screen and (max-width: 700px) {
     
