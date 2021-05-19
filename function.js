@@ -32,9 +32,10 @@
                        }
 
                   var sentences = [
-                    " Software Engineer.",
-                    " Web Developer.",
-                    " Web Designer. "
+                    " Luna.",
+                    "a Software Engineer.",
+                    "a Web Developer.",
+                    "a Web Designer. "
                   ]
                     
                   var counter = 0
