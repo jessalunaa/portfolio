@@ -202,14 +202,14 @@ section {
   flex-direction: column;
   width: 50%;
   margin-right: 15%;
-  padding-top: 50vh;
+  padding-top: 45vh;
 }
 
 .allcert {
   display: flex;
   justify-content: flex-end;
   width: 50%;
-  padding-top: 50vh;
+  padding-top: 45vh;
 }
 
 .cert {
