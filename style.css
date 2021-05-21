@@ -101,6 +101,82 @@ body {
   display: none;
 }
 
+.about {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutcontent {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 10%;
+  padding-top: 5%;
+}
+
+#typeline,
+h5 {
+  font-family: 'Sofia Pro Light';
+  text-align: center;
+  color: darkblue;
+
+}
+
+.allcert {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  flex-direction: column;
+  padding-top: 5%;
+}
+
+.cert {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cert .mySlides img {
+  width: 600px;
+  height: 400px;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cert .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+.projcontent{
+  margin-bottom: 250px;
+  padding-top: 20px;
+}
+
 .contact {
   position: relative;
   background-image: url(./images/welcome.jpg);
@@ -179,87 +255,6 @@ p {
     max-width: 1220px;
   }
 }
-
-section {
-  margin-bottom: 80px;
-}
-
-.row {
-  position: relative;
-}
-
-#typeline,
-h5 {
-
-  font-family: 'Sofia Pro Light';
-  text-align: center;
-  color: darkblue;
-
-}
-
-.about {
-  display: flex;
-  flex-direction: row;
-  padding-top: 5vh;
-}
-
-.aboutcontent {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  margin-right: 10%;
-}
-
-
-.allcert {
-  display: flex;
-  justify-content: flex-end;
-  width: 50%;
-  flex-direction: column;
-}
-
-.cert {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.cert .mySlides img {
-  width: 600px;
-  height: 400px;
-}
-
-.mySlides {
-  display: none;
-}
-
-.cert .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {
-    opacity: .4
-  }
-
-  to {
-    opacity: 1
-  }
-}
-
-@keyframes fade {
-  from {
-    opacity: .4
-  }
-
-  to {
-    opacity: 1
-  }
-}
-
 
 
 @media screen and (max-width: 700px) {
