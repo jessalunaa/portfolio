@@ -180,13 +180,14 @@ h5 {
 .contact {
   position: relative;
   background-image: url(./images/welcome.jpg);
-  background-position: bottom;
-  padding-left: 2%;
+  background-position: center;
+  padding-left: 20%;
   justify-content: space-evenly;
   align-items: center;
   bottom: 0;
   width: 100%;
 }
+
 .details{
   position: relative;
   display: flex;
