@@ -7,28 +7,56 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+:target:before {
+  content: "";
+  display: block;
+}
+
 body {
   box-sizing: border-box;
   font-family: 'Sofia Pro' !important;
 }
 
+#welcomecont {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 35vh;
+  position: relative;
+  z-index: 10;
+}
+
+#welcomebg {
+  background-image: url(./images/welcome.jpg);
+  display: flex;
+  width: 100%;
+  height: 35vh;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  background-position: center;
+}
+
+#name {
+  color: #dddddd;
+  font-family: 'Sofia Pro' !important;
+  font-size: 72px;
+  text-decoration: none;
+}
+
 .topnav {
   overflow: hidden;
   background-color: #f5f5f5;
-  position: fixed;
+  position: sticky;
   z-index: 10;
   width: 100%;
   display: inline-block;
-  top: 35vh;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-}
-
-.charlogo {
-  margin-right: 5%;
+  top: 0;
 }
 
 .topnav h1 {
@@ -38,6 +66,15 @@ body {
   margin: 0;
   padding: 16px;
   float: left;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.charlogo {
+  margin-right: 5%;
 }
 
 .topnavlink a {
@@ -64,51 +101,6 @@ body {
   display: none;
 }
 
-#welcomecont {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 35vh;
-  position: fixed;
-  z-index: 10;
-}
-
-#welcomebg {
-  background-image: url(./images/welcome.jpg);
-  display: flex;
-  width: 100%;
-  height: 35vh;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
-  background-position: center;
-}
-
-#name {
-  color: #dddddd;
-  font-family: 'Sofia Pro' !important;
-  font-size: 72px;
-  text-decoration: none;
-}
-
-/*=====================================*/
-.header {
-  position: fixed;
-  height: 60px;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-:target:before {
-  content: "";
-  display: block;
-  height: 40vh;
-  margin: -40vh 0 0;
-}
-
 .contact {
   position: relative;
   background-image: url(./images/welcome.jpg);
@@ -130,7 +122,7 @@ html {
 .details p{
   color: #fff;
   font-family: 'Sofia Pro' !important;
-  font-size: 22px;
+  font-size: 20px;
   text-decoration: none;
 }
 
