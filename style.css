@@ -200,6 +200,7 @@ h5 {
 .about {
   display: flex;
   flex-direction: row;
+  padding-top: 5vh;
 }
 
 .aboutcontent {
@@ -207,7 +208,6 @@ h5 {
   flex-direction: column;
   width: 50%;
   margin-right: 10%;
-  padding-top: 45vh;
 }
 
 
@@ -215,7 +215,6 @@ h5 {
   display: flex;
   justify-content: flex-end;
   width: 50%;
-  padding-top: 45vh;
   flex-direction: column;
 }
 
