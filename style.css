@@ -69,7 +69,6 @@ body {
   flex-direction: column;
   width: 100%;
   height: 35vh;
-  margin-bottom: 100px;
   position: fixed;
   z-index: 10;
 }
@@ -184,7 +183,8 @@ section {
   position: relative;
 }
 
-#typeline {
+#typeline,
+h5 {
 
   font-family: 'Sofia Pro Light';
   text-align: center;
@@ -201,7 +201,7 @@ section {
   display: flex;
   flex-direction: column;
   width: 50%;
-  margin-right: 15%;
+  margin-right: 10%;
   padding-top: 45vh;
 }
 
@@ -220,34 +220,13 @@ section {
   flex-direction: column;
 }
 
-.cert .mySlides img{
-width: 500px;
-height: 400px;
+.cert .mySlides img {
+  width: 600px;
+  height: 400px;
 }
 
-.mySlides{
-  display: none;  
-}
-
-.text {
-  font-family: 'Sofia Pro Light';
-  text-align: center;
-  color: darkblue;
-}
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
+.mySlides {
+  display: none;
 }
 
 .cert .fade {
@@ -258,13 +237,23 @@ height: 400px;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 
