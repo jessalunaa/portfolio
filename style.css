@@ -125,7 +125,6 @@ h5 {
 .allcert {
   display: flex;
   justify-content: flex-end;
-  width: 50%;
   flex-direction: column;
   padding-top: 5%;
 }
@@ -291,6 +290,24 @@ display: block;
 .dropdown:visited .topnavlink {
   display: none;
 }
+
+.about {
+  flex-direction: column;
+}
+
+.aboutcontent{
+  width: 100%;
+}
+
+.aboutcontent h3{
+  font-size: 36px;
+}
+
+p{
+  font-size: 20px;
+}
+
+
 
 }
 
