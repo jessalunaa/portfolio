@@ -264,32 +264,28 @@ p {
   display: none;
 }
 
-.topnavlink a {
-  text-decoration: none;
-  width: 100%;
-  color: #333;
-  display: block;
-  float: none;
-  padding: 10px;
+.topnav{
+display: block;
 }
+
 
 .dropdown {
   position: relative;
-  display: inline-block;
+  display: block;
   float: right;
 }
 
 .dropdownhome{
-    display: flex;
-    float: right;
-    padding: 16px;
+  display: inline-block;
+  padding: 15px;
 }
   
 .dropdown:hover .topnavlink,
 .dropdown:active .topnavlink{
-  background-color: #ddd;
   color: black;
-  display: block;
+  float: right;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .dropdown:visited .topnavlink {
