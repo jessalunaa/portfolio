@@ -31,7 +31,7 @@ body {
 }
 
 #welcomebg {
-  background-image: url(./images/welcome.jpg);
+  background-image: url(../images/welcome.jpg);
   display: flex;
   width: 100%;
   height: 35vh;
@@ -109,7 +109,7 @@ body {
 .aboutcontent {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 90%;
   margin-right: 10%;
   padding-top: 5%;
 }
@@ -179,7 +179,7 @@ h5 {
 
 .contact {
   position: relative;
-  background-image: url(./images/welcome.jpg);
+  background-image: url(../images/welcome.jpg);
   background-position: center;
   padding-left: 20%;
   justify-content: space-evenly;
