@@ -138,7 +138,7 @@ h5 {
 
 .cert .mySlides img {
   width: 100%;
-  height: auto;
+  height: 400px;
 }
 
 .mySlides {
@@ -318,8 +318,21 @@ p{
 }
 
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 650px) {
 
-
+  .aboutcontent h3{
+    font-size: 28px;
+  }
   
+  p{
+    font-size: 18px;
+  }
+ 
+  .projcontent{
+    padding-top: 20%;
+  }
+
+  .cert .mySlides img {
+    height: 250px;
+  }
 }
