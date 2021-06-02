@@ -14,6 +14,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
   <link rel="stylesheet" href="./css/style.css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 
 </head>
 
@@ -31,25 +32,32 @@
   </header>
 
   <main>
+    <div class="sticky-container">
+      <div class="topnav" id="myTopnav">
 
-    <div class="topnav" id="myTopnav">
-
-      <h1>
-        <div class="logo" id="mylogo">
-          <img src="./images/char.png" class="charlogo" width="30px" height="30px">
-          LUNA </div>
-      </h1>
-
-      <div class="dropdown">
-        <div class="dropdownhome"> <span class="material-icons">menu</span> </div>
-        <div class="topnavlink" id="mytopnavlink">
-          <a href="#projects">Projects</a>
-          <a href="#welcomecont">About</a>
-
+        <h1>
+          <div class="logo" id="mylogo">
+            <img src="./images/char.png" class="charlogo" width="30px" height="30px">
+            LUNA </div>
+        </h1>
+  
+        <div class="dropdown">
+          <a href="javascript:void(0)" class="dropdownhome" id="menudrop"> <span class="material-icons">menu</span> </a>
+          <div class="topnavlink">
+            <a href="#projects">Projects</a>
+            <a href="#welcomecont">About</a>
+  
+          </div>
         </div>
+  
       </div>
-
+      <div class="topnavlink sub" id="mytopnavlink">
+        <a href="#projects" class="navlist">Projects</a>
+        <a href="#welcomecont" class="navlist">About</a>
+  
+      </div>
     </div>
+   
 
     <div class="container">
 
@@ -171,6 +179,7 @@
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="./js/function.js"></script>
+  
 
 </body>
 
