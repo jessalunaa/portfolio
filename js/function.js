@@ -68,16 +68,24 @@ function showSlides() {
   setTimeout(showSlides, 5000);
 }
 
-// const menu = document.getElementById("menudrop");
-// const menuList = document.getElementById("mytopnavlink");
 
-// document.getElementById("menudrop").addEventListener("click", function(){
-//     document.getElementById("mytopnavlink").classList.toggle("menuList")
+/*const menu = document.getElementById("menudrop");
+const menuList = document.getElementById("mytopnavlink");
 
-// })
+menu.addEventListener("click", function(){
+  menuList.classList.toggle("menuList");
+})*/
 
-$(document).ready(() => {
- $('#menudrop').click(() => {$('#mytopnavlink').slideToggle(200)})
-$('.navlist').click(() => { $('#mytopnavlink').slideUp(200)})
+$('document').ready(function(){
+
+  $('#menudrop').click(function(){
+
+    $('#mytopnavlink').slideToggle(200)
+  })
+
+  $('.navlist').click(function(){
+    $('#mytopnavlink').slideUp(200)
+  })
 
 })
+
